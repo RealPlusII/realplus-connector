@@ -18,13 +18,12 @@ If your company has already added RealPlus to its Claude or ChatGPT account, add
 
 ## Files
 
-| File | Contents |
-|---|---|
-| [START.md](START.md) | Entry point. Checks whether RealPlus is already connected, then picks the right guide. |
-| [setup-claude.md](setup-claude.md) | Claude (web and desktop app), including the section for company administrators |
-| [setup-chatgpt.md](setup-chatgpt.md) | ChatGPT (web), including the section for workspace administrators |
+Everything is in [START.md](START.md), on purpose. Some assistants will not open a link they
+find inside a page they fetched, so the whole guide has to arrive in one fetch. It covers both
+Claude and ChatGPT, personal and company accounts, troubleshooting, and the steps for company
+administrators.
 
-The file names are part of the setup URLs. Renaming a file breaks the links in `START.md` and in
-any prompt already sent to users.
+`START.md` is part of the setup URL. Renaming or moving it breaks every prompt already sent to
+users.
 
-Questions or problems: contact Justin Moran or the RealPlus support team.
+Questions or problems: contact RealPlus customer support.
